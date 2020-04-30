@@ -1,0 +1,25 @@
+html {
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(45deg, #A683E3 50%, #E4E9FD 50%);
+  min-height: 1000px;
+  font-family: 'helvetica neue';
+}
+
+input {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+form {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.result {
+  padding-top: 100px;
+}

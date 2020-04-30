@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Retirement Goal</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <h1>Enter Information to Calculate Time Until You Can Retire!</h1>
+<form action="/" method="post">
+  <input type="text" name="retValue"  placeholder='Retirement Goal'>
+  <input type="text" name="initValue"  placeholder='Initial Investment'>
+  <input type="text" name="rate"   placeholder='Growth Rate'>
+  <button type="submit" name="submit">Calculate!</button>
+
+
+<div class="result">
+  <p>You have <%= numYears %> years until retirement!</p>
+
+
+</div>
+
+
+</form>
+
+
+  </body>
+</html>
